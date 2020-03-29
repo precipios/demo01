@@ -11,8 +11,8 @@ linest <- function() {
   m <- 1:(nrow * ncol)
   mat <- matrix(data = m, nrow = nrow, ncol = ncol, byrow=T)
 
-  df <- as.data.frame(mat)
-  return(df)
+  # df <- as.data.frame(mat)
+  return(mat)
 }
 
 # # Example:
