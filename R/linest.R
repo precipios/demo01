@@ -1,15 +1,14 @@
 
 # This is a function that will return an object
-linest <- function() {
+linest <- function(r, c) {
   # x is the x-data
   # y is the y-data
   # new comment
   # model <- lm(y~x)
 
-  nrow <- 100
-  ncol <- 10
-  m <- 1:(nrow * ncol)
-  mat <- matrix(data = m, nrow = nrow, ncol = ncol, byrow=T)
+
+  m <- 1:(r * c)
+  mat <- matrix(data = m, nrow = r, ncol = c, byrow=T)
 
   # df <- as.data.frame(mat)
   return(mat)
