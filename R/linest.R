@@ -3,6 +3,7 @@
 linest <- function(x, y) {
   # x is the x-data
   # y is the y-data
+  # new comment
   model <- lm(y~x)
 
   return(model)
