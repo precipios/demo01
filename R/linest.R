@@ -10,6 +10,7 @@ linest <- function(r, c) {
   m <- 1:(r * c)
   mat <- matrix(data = m, nrow = r, ncol = c, byrow=T)
 
+  # add a note to push a new package to github
   # df <- as.data.frame(mat)
   return(mat)
 }
